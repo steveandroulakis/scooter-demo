@@ -54,7 +54,6 @@ export interface ScooterRideWorkflowArgs {
     emailAddress: string;
     customerId: string; // Example: to be looked up
     meterName: string;  // Example from your client.ts
-    rideTimeoutSecs: number; // Example from your client.ts
     pricePerThousand?: number;
     currency?: string;
 }

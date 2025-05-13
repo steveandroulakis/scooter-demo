@@ -54,7 +54,6 @@ async function runWithScooter(env: EnvWithApiKey, scooterId: string, emailAddres
 	emailAddress,
     customerId: '',  // An Activity fetches this from Stripe, based on email address
     meterName: 'scooter-ride-tq',
-    rideTimeoutSecs: 60 * 60 * 3,   // 3 hours 
   });
 }
 

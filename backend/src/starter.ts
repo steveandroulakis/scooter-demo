@@ -6,7 +6,6 @@ export interface ScooterSessionParams {
   emailAddress: string;
   customerId?: string;
   meterName: string;
-  rideTimeoutSecs?: number;
   pricePerThousand?: number;  // price per 1000 tokens
   currency?: string;          // currency code (e.g., 'USD')
 }

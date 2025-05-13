@@ -3,7 +3,6 @@ export interface RideStateResponse {
   emailAddress: string;
   customerId: string;
   meterName: string;
-  rideTimeoutSecs: number;
   pricePerThousand: number;
   currency: string;
   status: {
